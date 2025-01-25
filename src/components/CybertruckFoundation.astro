@@ -1,0 +1,36 @@
+---
+import Section from "./Section.astro"
+import FoundationSeries from "./FoundationSeries.astro"
+import CybertruckFoundationSeries from "./CybertruckFoundationSeries.astro"
+---
+
+<Section
+  color="white"
+  id="Cybertruck-Foundation-Series"
+  subtitle="A partir de $1,831,9003"
+>
+  <!-- Reemplazamos el contenido del encabezado -->
+  <CybertruckFoundationSeries slot="header"/>
+
+  <div slot="footer" class="gap-x-6 flex mx-auto">
+    <a
+    class="border-[3px] border-transparent bg-gray-900/75 backdrop-blur-sm text-sm font-medium text-gray-400 px-12 py-2 inline-block hover:bg-gray-800/75 hover:text-gray-400 transition-colors "
+    href="#"
+    >
+      Explorar inventario</a>
+
+    <a
+    class="border-[3px] border-transparent bg-gray-900/75 backdrop-blur-sm text-sm font-medium text-gray-400 px-12 py-2 inline-block hover:bg-gray-800/75 hover:text-gray-400 transition-colors"
+      href="#"
+    >
+      Más Información</a>
+  </div>
+
+  <img
+    slot="background"
+    alt="Cybertruck Foundation Series"
+    class="h-full w-full object-cover object-center bg-image"
+    src="/public/Homepage-Cybertruck-Desktop-v3.avif"
+    id="bg-image-modely"
+  />
+</Section>
